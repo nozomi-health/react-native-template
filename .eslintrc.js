@@ -70,6 +70,7 @@ module.exports = {
     'jsx-a11y/no-static-element-interactions': 'off',
     'react/react-in-jsx-scope': 'off',
     'jsx-a11y/click-events-have-key-events': 'off',
+    'import/no-cycle': 'off',
     'import/no-extraneous-dependencies': [
       'warn',
       {
