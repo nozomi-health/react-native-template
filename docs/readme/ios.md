@@ -1,22 +1,23 @@
-1) Go to [Apple Developer account](https://developer.apple.com/)
+## IOS setup
+- Go to [Apple Developer account](https://developer.apple.com/)
 
-      Select Account -> Certificates, Identifiers & Profiles -> Certificates
+     Select Account -> Certificates, Identifiers & Profiles -> Certificates
 
-      Create new certificate and install on device
+     Create new certificate and install on device
 
-      ![Create new certificate](https://github.com/remdev-studio/react-native-template/blob/main/docs/images/certificate-create.png?raw=true)
+     ![Create new certificate](https://github.com/remdev-studio/react-native-template/blob/main/docs/images/certificate-create.png?raw=true)
 
-      Select Certificates, Identifiers & Profiles -> Profiles
+     Select Certificates, Identifiers & Profiles -> Profiles
 
-      Create new profile
+     Create new profile
 
-      ![Create new profile](https://github.com/remdev-studio/react-native-template/blob/main/docs/images/provisioning-profile-create.png?raw=true)
-      ![Select profile type](https://github.com/remdev-studio/react-native-template/blob/main/docs/images/provisioning-profile-distribution.png?raw=true)
-      ![Select app id](https://github.com/remdev-studio/react-native-template/blob/main/docs/images/provisioning-profile-app-id.png?raw=true)
+     ![Create new profile](https://github.com/remdev-studio/react-native-template/blob/main/docs/images/provisioning-profile-create.png?raw=true)
+     ![Select profile type](https://github.com/remdev-studio/react-native-template/blob/main/docs/images/provisioning-profile-distribution.png?raw=true)
+     ![Select app id](https://github.com/remdev-studio/react-native-template/blob/main/docs/images/provisioning-profile-app-id.png?raw=true)
 
-      Download Provisioning Profile and install it on device
+     Download Provisioning Profile and install it on device
 
-2) In xcode open .xcworkspace
+- In xcode open .xcworkspace
 
       Select project -> Singing & Capabilities -> Release
   
@@ -32,7 +33,7 @@
 
       Upload app to TestFlight manually
   
-3) Add following secrets in github repository:
+- Add following secrets in github repository:
 
       IOS_MOBILE_PROVISION_BASE64: run in console "openssl base64 < MY_Profile.mobileprovision | tr -d '\n' | tee my-profile.base64.txt" where MY_Profile.mobileprovision - name of downloaded provisioning profile. Copy text of txt file and pass int as value of secret.
   
@@ -65,4 +66,4 @@
       APPSTORE_API_PRIVATE_KEY: Private key for AppStore Connect API, file like AuthKey_xxxxxx.p8
 
 
-  More info there https://www.obytes.com/blog/react-native-github-action
+ ##### More info there https://www.obytes.com/blog/react-native-github-action
