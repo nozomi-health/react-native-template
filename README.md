@@ -8,10 +8,10 @@ yarn ios
 yarn android
 ```
 # Setup CI/CD for Android
-[Android documentation here](https://developer.apple.com/)
+[Android documentation here](https://github.com/remdev-studio/react-native-template/blob/main/docs/readme/android.md)
 
 # Setup CI/CD for IOS
-[IOS documentation here](https://developer.apple.com/)
+[IOS documentation here](https://github.com/remdev-studio/react-native-template/blob/main/docs/readme/ios.md)
 
 # Husky setup
 
