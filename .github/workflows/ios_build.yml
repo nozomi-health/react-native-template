@@ -71,10 +71,12 @@ jobs:
           issuer-id: ${{ secrets.APPSTORE_ISSUER_ID }}
           api-key-id: ${{ secrets.APPSTORE_API_KEY_ID }}
           api-private-key: ${{ secrets.APPSTORE_API_PRIVATE_KEY }}
+          
       # - id: set_var
       #   run: |
-      #     content=`cat ./ios/ReactNativeTestProject.xcodeproj/project.pbxproj | grep -m1 'MARKETING_VERSION' | cut -d'=' -f2 | tr -d ';' | tr -d ' '`
+      #     content=`cat ./react-native-template.xcodeproj/project.pbxproj | grep -m1 'MARKETING_VERSION' | cut -d'=' -f2 | tr -d ';' | tr -d ' '`
       #     echo "::set-output name=marketingVersion::$content"
+
       # - name: Post to a Slack channel
       #   id: slack
       #   uses: slackapi/slack-github-action@v1.19.0
@@ -82,8 +84,8 @@ jobs:
       #     # Slack channel id, channel name, or user id to post message.
       #     # See also: https://api.slack.com/methods/chat.postMessage#channels
       #     channel-id: 'Channel_Id'
-      #     # Message to post 
-      #     slack-message: "Hi. A new v${{ fromJson(steps.set_var.outputs.marketingVersion) }} version of our app has been uploaded to Testflight!"
+      #     # Message to post
+      #     slack-message: "Hi. A new v${{ steps.set_var.outputs.marketingVersion }} version of our ios app has been uploaded to Testflight!"
       #   env:
       #     # Slack developer bot token
       #     SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
