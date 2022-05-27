@@ -17,5 +17,14 @@ yarn android
 
 After installing dependencies run 
 ```
-yarn husky install
+yarn husky install && echo 'PATH=$PATH:'$PATH >> .husky/_/husky.sh
 ```
+# Project renaming
+
+After installing dependencies run 
+```
+yarn rename <NewProjectName> <BundleIdForAndroid>
+```
+BundleIdForAndroid is custom Bundle Identifier like com.reactnativetemplate
+
+After the script has finished running search in your IDE old project`s name and replace to new one manually. There are a few places where script cannot replace namings automatically
