@@ -27,4 +27,6 @@ yarn rename <NewProjectName> <BundleIdForAndroid>
 ```
 BundleIdForAndroid is custom Bundle Identifier like com.reactnativetemplate
 
-After the script has finished running search in your IDE old project`s name and replace to new one manually. There are a few places where script cannot replace namings automatically
+After the script has finished running search in your IDE old project`s name and replace to new one manually. There are a few places where script cannot replace namings automatically. Red ones should be on lowercase and match your BundleIdForAndroid and yellow ones should match your NewProjectName
+
+![](https://github.com/remdev-studio/react-native-template/blob/main/docs/images/rename.png?raw=true)
