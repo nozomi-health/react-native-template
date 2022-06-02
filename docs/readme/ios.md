@@ -1,4 +1,5 @@
 ## IOS setup
+- In .github/workflows/ios_build.yml change paths from .../react-native-template/... to .../your-project-name/...
 - Go to [Apple Developer account](https://developer.apple.com/)
 
         Select Account -> Certificates, Identifiers & Profiles -> Certificates
