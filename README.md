@@ -14,7 +14,7 @@ yarn android
 [IOS documentation here](https://github.com/remdev-studio/react-native-template/blob/main/docs/readme/ios.md)
 
 # CI/CD Slack integration
-To enable slack notifications on automatic builds, please, follow the instructions in corresponding section of ./.github/(ios_build/android_build).yml file
+To enable slack notifications on automatic builds, please, follow the instructions in corresponding section of ./.github/workflows/(ios_build/android_build).yml file
 
 # Husky setup
 
