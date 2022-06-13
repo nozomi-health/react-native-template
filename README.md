@@ -8,10 +8,10 @@ yarn ios
 yarn android
 ```
 ## Setup CI/CD for Android
-[Android documentation here](https://github.com/remdev-studio/react-native-template/blob/main/docs/readme/android.md)
+[Android documentation here](https://www.notion.so/Android-CI-CD-Setup-e7f10a4dbf434490ae507ad9aad6d60a)
 
 ## Setup CI/CD for IOS
-[IOS documentation here](https://github.com/remdev-studio/react-native-template/blob/main/docs/readme/ios.md)
+[IOS documentation here](https://www.notion.so/IOS-CI-CD-Setup-d18e874871684302b2690eb28c63806c)
 
 ## CI/CD Slack integration
 To enable slack notifications on automatic builds, please, follow the instructions in corresponding section of ./.github/workflows/(ios_build/android_build).yml file
