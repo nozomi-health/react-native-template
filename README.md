@@ -7,22 +7,22 @@ yarn
 yarn ios
 yarn android
 ```
-# Setup CI/CD for Android
+## Setup CI/CD for Android
 [Android documentation here](https://github.com/remdev-studio/react-native-template/blob/main/docs/readme/android.md)
 
-# Setup CI/CD for IOS
+## Setup CI/CD for IOS
 [IOS documentation here](https://github.com/remdev-studio/react-native-template/blob/main/docs/readme/ios.md)
 
-# CI/CD Slack integration
+## CI/CD Slack integration
 To enable slack notifications on automatic builds, please, follow the instructions in corresponding section of ./.github/workflows/(ios_build/android_build).yml file
 
-# Husky setup
+## Husky setup
 
 After installing dependencies run 
 ```
 yarn husky install && echo 'PATH=$PATH:'$PATH >> .husky/_/husky.sh
 ```
-# Project renaming
+## Project renaming
 
 After installing dependencies run 
 ```
