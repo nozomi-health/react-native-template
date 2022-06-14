@@ -1,5 +1,5 @@
 # react-native-template
-Use this project as a base for any react-native projects. Keep existing project structure and follow example files logic and principles while extending it. For more info check https://www.notion.so/React-Native-project-initialisation-aea5ad3c29d1424b80f6df18de63b8dc 
+Use this project as a base for any react-native projects. Keep existing project structure and follow example files logic and principles while extending it. For more info check [Notion page](https://www.notion.so/React-Native-project-initialisation-aea5ad3c29d1424b80f6df18de63b8dc)
 
 ## Install and run
 ```
